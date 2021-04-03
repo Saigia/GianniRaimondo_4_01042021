@@ -154,7 +154,7 @@ a:hover {
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background:rgba(255, 255, 255, 1);
 }
 
 .d-bloc .btn-wire,
@@ -680,6 +680,14 @@ p {
     font-size: 11px;
 }
 
+/*ajout css pour modif site*/
+blockquote p {
+    font-size: 20px;
+    font-style: italic;
+    width: 89%;
+    margin: auto;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -702,6 +710,12 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+/*rajout 1 classe pour modif : titre h2 manquant à la place d'image*/
+.titre {
+    margin: auto;
+    width: 60%;
 }
 
 h2 {
