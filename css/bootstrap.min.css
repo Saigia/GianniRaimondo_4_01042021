@@ -1915,7 +1915,7 @@ blockquote.pull-right small:after {
 address {
     margin-bottom: 20px;
     font-style: normal;
-    line-height: 1.42857143
+    line-height: 1.42857143;
 }
 
 code,
