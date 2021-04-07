@@ -13,13 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-		
-		
-		<script src="./js/jquery-2.1.0.js"></script><!--.min(.js)-->
-		<script src="./js/bootstrap.js"></script><!--.min(.js)-->
-		<script src="./js/blocs.js"></script><!--.min(.js)-->
-		<script src="./js/jqBootstrapValidation.js"></script>
-		<script src="./js/formHandler.js"></script>
+				
 		<title>Contacter La Chouette Agence</title>
 
 	<!-- Analytics -->
@@ -35,7 +29,7 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo La chouette agence Lyon" height="40" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo La chouette agence Lyon" class="logochouette"/></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
@@ -84,32 +78,32 @@
 				<div class="container bloc-lg">
 					<div>
 						<div class="col-sm-6">
-							<form id="form_1">
+							<form id="form_1" aria-label="formulaire">
 								<!-- novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"-->
 								<div class="form-group">
 									<label aria-label="nom">
 										Nom
 									</label>
-									<input id="name" class="form-control" required />
+									<input id="name" class="form-control" required aria-label="zone de texte"/>
 								</div>
 								<div class="form-group">
-									<label>
+									<label aria-label="adresse email">
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" required />
+									<input id="email" class="form-control" type="email" required aria-label="zone de texte"/>
 								</div>
 								<div class="form-group">
-									<label>
+									<label aria-label="comment nous avez-vous connu">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" required id="input_504" />
+									<input class="form-control" type="email" required id="input_504" aria-label="zone de texte"/>
 								</div>
 								<div class="form-group">
-									<label>
+									<label aria-label="brief projet">
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									</label><textarea id="message" class="form-control" rows="4" cols="50" required aria-label="zone de texte"></textarea>
 								</div> 
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="envoyer">
 									Envoyer
 								</button>
 							</form>
@@ -170,6 +164,11 @@
 
 	<!-- Principal conteneur END -->
 		
+		<script src="./js/jquery-2.1.0.js"></script><!--.min(.js)-->
+		<script src="./js/bootstrap.js"></script><!--.min(.js)-->
+		<script src="./js/blocs.js"></script><!--.min(.js)-->
+		<script src="./js/jqBootstrapValidation.js"></script>
+		<script src="./js/formHandler.js"></script>
 
 	</body>
 </html>

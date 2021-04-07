@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.image-resize-mode {
+    width: 100px;
+}
+
+.logochouette {
+    height: 40px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
