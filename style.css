@@ -764,6 +764,9 @@ h4 {
     color: #333333!important;
 }
 
+.adresse h2 {
+    font-size: 14px;
+}
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
