@@ -9,6 +9,7 @@ body {
 
 .image-resize-mode {
     width: 100px;
+    height: 100px;
 }
 
 .logochouette {
@@ -62,6 +63,10 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+.vieavotrepage {
+    position: relative;
 }
 
 .bg-center,
@@ -162,7 +167,7 @@ a:hover {
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background:rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .btn-wire,
@@ -541,7 +546,7 @@ button {
 a[data-lightbox] {
     position: relative;
     display: block;
-    text-align: -webkit-center;/*modif valeur de center à webkit-center*/
+    text-align: -webkit-center;
 }
 
 a[data-lightbox]:hover::before {
@@ -684,11 +689,12 @@ a {
     margin: auto auto auto auto;
 }
 
-/* p {
-    font-size: 12px;
+/*p {
+    font-size: 11px;
 } */
 
 /*ajout css pour modif site*/
+
 blockquote p {
     font-size: 20px;
     font-style: italic;
@@ -719,23 +725,10 @@ blockquote p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
-/*rajout 1 classe pour modif : titre h2 manquant à la place d'image*/
+/* rajout 1 classe pour modif : titre h2 manquant à la place d'image */
 .titre {
-    margin: auto;
-    width: 60%;
-}
-@media screen and (max-width: 767px)
-{
-    .titre {
-        width: 100%;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px)
-{
-    .titre {
-        width: 80%;
-    }
+    margin:auto;
+    width: 70%;
 }
 
 h2 {
@@ -764,9 +757,6 @@ h4 {
     color: #333333!important;
 }
 
-.adresse h2 {
-    font-size: 14px;
-}
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -775,7 +765,6 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
 .titrefooter {
     color: #1E1212!important;
 }
@@ -808,7 +797,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #111d45;
+    background-color: #111D45;
 }
 
 .bgc-atomic-tangerine {
@@ -820,7 +809,7 @@ h4 {
 }
 
 .clrtitrepage2 {
-    color: #5d260d!important;
+    color: #5D260D!important ;
 }
 
 .btn-atomic-tangerine {
@@ -829,7 +818,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #dc8961!important;
+    background: #DC8961!important;
     color: #000000!important;
 }
 
@@ -918,8 +907,8 @@ h4 {
         position: relative;
     }
     /*.bloc {
-         padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); 
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }*/
     .bloc-group,
     .bloc-group .bloc {
@@ -929,8 +918,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 

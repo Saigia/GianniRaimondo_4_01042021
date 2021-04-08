@@ -1856,12 +1856,11 @@ abbr[title] {
     text-transform: uppercase
 }
 
-/*modif parametre par defaut pour adaptation site*/
 blockquote {
     padding: 10px 20px 0 20px;
     margin: 0 0 0 0;
     font-size: 17.5px;
-    /* border-left: 5px solid #eee */
+    /*border-left: 5px solid #eee*/
 }
 
 blockquote ol:last-child,
@@ -1915,7 +1914,7 @@ blockquote.pull-right small:after {
 address {
     margin-bottom: 20px;
     font-style: normal;
-    line-height: 1.42857143;
+    line-height: 1.42857143
 }
 
 code,
@@ -1985,6 +1984,8 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
+
+
 
 @media (min-width:768px) {
     .container {
@@ -4845,7 +4846,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 
 .nav>li>a:focus,
