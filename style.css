@@ -296,6 +296,12 @@ a:hover {
     padding-left: 0;
 }
 
+/*ajout pour alignement icone RS*/
+.icone {
+    display: flex;
+    justify-content: space-around;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -547,6 +553,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: -webkit-center;
+    text-align: -moz-center;
 }
 
 a[data-lightbox]:hover::before {
